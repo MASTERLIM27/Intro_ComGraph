@@ -12,7 +12,7 @@ height = 600
 pygame.init()
 screen = pygame.display.set_mode((width, height), 0, 32)
 
-background_image_filename = '/Users/andreaslim/Documents/Kuliah/Dongseo/Intro_ComGraph/image/curve_pattern.png'
+background_image_filename = '/Users/andreaslim/Documents/GitHub/Intro_ComGraph/image/curve_pattern.png'
 
 background = pygame.image.load(background_image_filename).convert()
 width, height = background.get_size()
